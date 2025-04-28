@@ -1,0 +1,11 @@
+# Java / Maven
+CPUapp/target/
+*.log
+
+# Node
+cpu-ui/node_modules/
+cpu-ui/dist/
+
+# IDE
+.idea/
+*.iml

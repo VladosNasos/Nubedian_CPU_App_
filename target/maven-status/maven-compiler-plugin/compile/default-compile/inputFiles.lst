@@ -1,0 +1,16 @@
+C:\Users\Vlados\IdeaProjects\CPUapp\src\main\java\com\example\cpuapp\config\CorsConfig.java
+C:\Users\Vlados\IdeaProjects\CPUapp\src\main\java\com\example\cpuapp\controller\CpuController.java
+C:\Users\Vlados\IdeaProjects\CPUapp\src\main\java\com\example\cpuapp\controller\SocketController.java
+C:\Users\Vlados\IdeaProjects\CPUapp\src\main\java\com\example\cpuapp\CpUappApplication.java
+C:\Users\Vlados\IdeaProjects\CPUapp\src\main\java\com\example\cpuapp\dto\CpuDto.java
+C:\Users\Vlados\IdeaProjects\CPUapp\src\main\java\com\example\cpuapp\dto\SocketDto.java
+C:\Users\Vlados\IdeaProjects\CPUapp\src\main\java\com\example\cpuapp\exception\GlobalExceptionHandler.java
+C:\Users\Vlados\IdeaProjects\CPUapp\src\main\java\com\example\cpuapp\exception\ResourceNotFoundException.java
+C:\Users\Vlados\IdeaProjects\CPUapp\src\main\java\com\example\cpuapp\model\Cpu.java
+C:\Users\Vlados\IdeaProjects\CPUapp\src\main\java\com\example\cpuapp\model\Socket.java
+C:\Users\Vlados\IdeaProjects\CPUapp\src\main\java\com\example\cpuapp\repository\CpuRepository.java
+C:\Users\Vlados\IdeaProjects\CPUapp\src\main\java\com\example\cpuapp\repository\SocketRepository.java
+C:\Users\Vlados\IdeaProjects\CPUapp\src\main\java\com\example\cpuapp\service\CpuService.java
+C:\Users\Vlados\IdeaProjects\CPUapp\src\main\java\com\example\cpuapp\service\CpuServiceImpl.java
+C:\Users\Vlados\IdeaProjects\CPUapp\src\main\java\com\example\cpuapp\service\SocketService.java
+C:\Users\Vlados\IdeaProjects\CPUapp\src\main\java\com\example\cpuapp\service\SocketServiceImpl.java
