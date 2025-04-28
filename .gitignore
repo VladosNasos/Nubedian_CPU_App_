@@ -8,4 +8,5 @@ cpu-ui/dist/
 
 # IDE
 .idea/
-*.iml
+*.imltarget/
+cpu-ui/.vite/
