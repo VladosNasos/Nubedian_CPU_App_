@@ -5,7 +5,7 @@ CPUapp/target/
 # Node
 cpu-ui/node_modules/
 cpu-ui/dist/
-
+cpu-ui/package-lock.json
 # IDE
 .idea/
 *.imltarget/
