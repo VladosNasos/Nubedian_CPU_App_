@@ -3,8 +3,8 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { useForm, Controller } from 'react-hook-form';
 import { fetchSockets } from '../api/socket';
 import { fetchCpu, createCpu, updateCpu } from '../api/cpu';
-import { SocketDto, CpuDto } from '../types';
-import { Layout } from './Layout';
+import { SocketDto, CpuDto } from "../types";
+import { Layout } from "./Layout";
 import {
     Paper,
     Typography,
@@ -30,7 +30,7 @@ export function CpuForm() {
     useEffect(() => {
         fetchSockets().then(setS);
         if (isEdit) {
-            fetchCpu(Number(id)).then((cpu) =>
+            fetchCpu(Number(id)).then((cpu:CpuDto) =>
                 Object.entries(cpu).forEach(([k, v]) => setValue(k as keyof CpuDto, v as any))
             );
         }

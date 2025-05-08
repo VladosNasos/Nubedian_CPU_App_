@@ -1,10 +1,9 @@
 // cpu-ui/src/api/cpu.ts
 import axios from 'axios';
-import { CpuDto } from '../types';
+import {CpuDto} from "../types.js";
 
 const api = axios.create({
     baseURL: '/api',
-    withCredentials: true,
 });
 
 export const fetchCpus = () => api.get<CpuDto[]>('/cpus').then(r => r.data);

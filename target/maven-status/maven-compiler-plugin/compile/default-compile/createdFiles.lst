@@ -7,6 +7,7 @@ com\example\cpuapp\config\CorsConfig.class
 com\example\cpuapp\CpUappApplication.class
 com\example\cpuapp\service\CpuServiceImpl.class
 com\example\cpuapp\service\SocketService.class
+com\example\cpuapp\config\SecurityConfig.class
 com\example\cpuapp\service\SocketServiceImpl.class
 com\example\cpuapp\CpUappApplication$1.class
 com\example\cpuapp\dto\SocketDto.class
