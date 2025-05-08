@@ -75,7 +75,8 @@ public class CpuServiceImpl implements CpuService {
                 cpu.getCores(),
                 cpu.getThreads(),
                 cpu.getTdp(),
-                cpu.getPriceEur()
+                cpu.getPriceEur(),
+                cpu.isAvailable()
         );
     }
 
@@ -91,6 +92,7 @@ public class CpuServiceImpl implements CpuService {
         cpu.setThreads(dto.getThreads());
         cpu.setTdp(dto.getTdp());
         cpu.setPriceEur(dto.getPriceEur());
+        cpu.setAvailable(dto.isAvailable());
         return cpu;
     }
 }

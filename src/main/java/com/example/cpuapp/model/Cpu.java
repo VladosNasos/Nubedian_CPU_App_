@@ -25,4 +25,5 @@ public class Cpu {
     private int threads;
     private Integer tdp;
     private BigDecimal priceEur;
+    private boolean available = true;
 }

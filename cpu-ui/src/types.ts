@@ -13,4 +13,5 @@ export interface CpuDto {
     threads: number;
     tdp: number;
     priceEur: number;
+    available: boolean;
 }

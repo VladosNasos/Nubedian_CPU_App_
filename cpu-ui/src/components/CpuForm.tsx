@@ -17,7 +17,8 @@ import {
     CircularProgress,
     Box,
     Stack,
-    Container,
+    Container, FormControlLabel,
+    Switch,
 } from '@mui/material';
 
 export function CpuForm() {
@@ -91,6 +92,24 @@ export function CpuForm() {
                                 <TextField label="TDP (W)" type="number" fullWidth required {...register('tdp', { valueAsNumber: true })} />
                             </Stack>
                             <TextField label="Price (€)" type="number" inputProps={{ step: 0.01 }} fullWidth required {...register('priceEur', { valueAsNumber: true })} />
+                            <FormControlLabel
+                                control={
+                                <Controller
+                                    name="available"
+                                    control={control}
+                                    defaultValue={true}
+                                    render={({field}) =>(
+                                        <Switch {...field}
+                                                checked={field.value}
+                                                onChange={((e)=>
+                                        field.onChange(e.target.checked)
+                                                )}
+                                        />
+                            )}
+                               />
+                            }
+                            label="Available"
+                            />
                             <Stack direction="row" spacing={2} justifyContent="center">
                                 <Button variant="outlined" onClick={() => navigate(-1)}>
                                     Cancel

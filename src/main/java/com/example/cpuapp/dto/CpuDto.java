@@ -34,4 +34,6 @@ public class CpuDto {
 
     @NotNull @DecimalMin("0.0")
     private BigDecimal priceEur;
+
+    private boolean available;
 }

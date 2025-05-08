@@ -29,6 +29,7 @@ public class CpuController {
 
     @PostMapping
     public ResponseEntity<CpuDto> create(@Valid @RequestBody CpuDto dto) {
+        System.out.println("Received CPU: " + dto);
         CpuDto created = cpuService.create(dto);
         return ResponseEntity.status(HttpStatus.CREATED).body(created);
     }
