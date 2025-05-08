@@ -101,14 +101,14 @@ export function CpuForm() {
                                     render={({field}) =>(
                                         <Switch {...field}
                                                 checked={field.value}
-                                                onChange={((e)=>
-                                        field.onChange(e.target.checked)
-                                                )}
-                                        />
-                            )}
-                               />
-                            }
-                            label="Available"
+                                                onChange={(e) =>
+                                                    field.onChange(e.target.checked)
+                                        }
+                                            />
+                                        )}
+                                    />
+                                }
+                                label="Available"
                             />
                             <Stack direction="row" spacing={2} justifyContent="center">
                                 <Button variant="outlined" onClick={() => navigate(-1)}>
